@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>To-Do List | Julia Johnson</title>
+    <link href="todo.css" rel="stylesheet" type="text/css" />
+  </head>
+
+<body>
+    <header>
+      <nav id="navbar">
+        <div class="container">
+          <h1 class="logo">J&J</h1>
+            <ul>
+              <li><a href="product.html">Product Catalog</a></li>
+              <li><a class="current">To Do List</a></li>
+            </ul>
+        </div>
+      </nav>
+      </div>
+</header>
+    <div class="container">
+      <h1>J&J To-Do List</h1>
+      <table id="taskTable">
+        <thead>
+          <tr>
+            <th>Task</th>
+            <th>Due Date</th>
+            <th>Complete</th>
+          </tr>
+        </thead>
+        <tbody>
+          <!-- Tasks will be inserted here by JavaScript -->
+        </tbody>
+      </table>
+      <h2>Add & Remove Tasks</h2>
+      <input type="text" id="taskName" placeholder="Task Name" />
+      <input type="text" id="taskDate" placeholder="Due Date" />
+      <button id="addTaskButton">Add Task</button>
+      <button id="removeTaskButton">Remove Task</button>
+    </div>
+    <script src="todo.js"></script>
+  </body>
+</html>
